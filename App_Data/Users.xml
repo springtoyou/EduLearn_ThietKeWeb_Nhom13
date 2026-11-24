@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Users>
+    <User>
+        <UserId>U001</UserId>
+        <Username>minhanh</Username>
+        <FullName>Nguyễn Minh Anh</FullName>
+        <Email>minhanh@student.edu.vn</Email>
+        <PasswordHash>100000.cdPXoB4BDDMppo8UXPoGUw==.YTjeZbU9XJRjmpZQN9yCu8+eH750ghh4b/hT0NaTu54=</PasswordHash>
+        <Role>Student</Role>
+        <Phone></Phone>
+        <Avatar></Avatar>
+        <Gender></Gender>
+        <DateOfBirth></DateOfBirth>
+        <Status>Active</Status>
+        <CreatedAt>2026-11-16T00:00:00</CreatedAt>
+        <UpdatedAt>2026-11-16T00:00:00</UpdatedAt>
+        <LastLoginAt></LastLoginAt>
+    </User>
+    <User>
+        <UserId>U002</UserId>
+        <Username>an.instructor</Username>
+        <FullName>Trần Quốc An</FullName>
+        <Email>an.instructor@edulearn.vn</Email>
+        <PasswordHash>100000.nO06kudqpds3oYCviVGLxQ==.iqqSCeaXNuNgsDAeUXD/K/K0M7a36+eoMZ6eb8lUhe4=</PasswordHash>
+        <Role>Instructor</Role>
+        <Phone></Phone>
+        <Avatar></Avatar>
+        <Gender></Gender>
+        <DateOfBirth></DateOfBirth>
+        <Status>Active</Status>
+        <CreatedAt>2026-11-16T00:00:00</CreatedAt>
+        <UpdatedAt>2026-11-16T00:00:00</UpdatedAt>
+        <LastLoginAt></LastLoginAt>
+    </User>
+    <User>
+        <UserId>U003</UserId>
+        <Username>admin</Username>
+        <FullName>Quản trị viên EduLearn</FullName>
+        <Email>admin@edulearn.vn</Email>
+        <PasswordHash>100000.PO2zo/k67skoioRfEQ1cjg==.cGUC7QlJA9jswh2t3qmCsi8cZdLPYcGzu9MfT1MQ5Z0=</PasswordHash>
+        <Role>Admin</Role>
+        <Phone></Phone>
+        <Avatar></Avatar>
+        <Gender></Gender>
+        <DateOfBirth></DateOfBirth>
+        <Status>Active</Status>
+        <CreatedAt>2026-11-16T00:00:00</CreatedAt>
+        <UpdatedAt>2026-11-16T00:00:00</UpdatedAt>
+        <LastLoginAt></LastLoginAt>
+    </User>
+    <User>
+        <UserId>U004</UserId>
+        <Username>quoc123</Username>
+        <FullName>Trần Quốc Anh</FullName>
+        <Email>anh@edulearn.vn</Email>
+        <PasswordHash>100000.w7kZwvTVJ0Zmd/bEcb/EKg==.BA+m6TLvlfYfZU6pHKwcG84HzAzDqdlzpDeFt0Tz3w8=</PasswordHash>
+        <Role>Student</Role>
+        <Phone>0987654321</Phone>
+        <Avatar></Avatar>
+        <Gender>Nam</Gender>
+        <DateOfBirth>2000-11-11</DateOfBirth>
+        <Status>Active</Status>
+        <CreatedAt>2026-11-24T15:51:28</CreatedAt>
+        <UpdatedAt>2026-11-24T15:51:28</UpdatedAt>
+        <LastLoginAt></LastLoginAt>
+    </User>
+    <User>
+        <UserId>U005</UserId>
+        <Username>uyen111</Username>
+        <FullName>Lê Giang Uyên</FullName>
+        <Email>lenguyen999@edulearn.vn</Email>
+        <PasswordHash>100000.uW+oOIu49MM/bsadBANd/g==.Cbmnhzvsenn9NLJPoErcHzf8T5s41n/S0z92a/EGDgU=</PasswordHash>
+        <Role>Student</Role>
+        <Phone>0912345678</Phone>
+        <Avatar></Avatar>
+        <Gender>Nữ</Gender>
+        <DateOfBirth>2006-12-12</DateOfBirth>
+        <Status>Active</Status>
+        <CreatedAt>2026-11-24T15:52:00</CreatedAt>
+        <UpdatedAt>2026-11-24T15:52:19</UpdatedAt>
+        <LastLoginAt></LastLoginAt>
+    </User>
+    <User>
+        <UserId>U006</UserId>
+        <Username>giangvien123</Username>
+        <FullName>Nguyễn Văn C</FullName>
+        <Email>nguyenc@edulearn.vn</Email>
+        <PasswordHash>100000.Il0KEZMDaY30PG90ZhKT/A==.TiWr3DahdNUl9aZIS8lxvCDar081n3/HyAxyGhMAZQA=</PasswordHash>
+        <Role>Instructor</Role>
+        <Phone>0988776655</Phone>
+        <Avatar></Avatar>
+        <Gender>Nam</Gender>
+        <DateOfBirth>1995-10-10</DateOfBirth>
+        <Status>Active</Status>
+        <CreatedAt>2026-11-24T15:54:05</CreatedAt>
+        <UpdatedAt>2026-11-24T15:54:05</UpdatedAt>
+        <LastLoginAt></LastLoginAt>
+    </User>
+</Users>

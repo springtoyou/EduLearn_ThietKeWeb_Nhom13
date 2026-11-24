@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ActivityLogs>
+    <Activity>
+        <ActivityId>ACT001</ActivityId>
+        <UserId>U001</UserId>
+        <ActionType>Login</ActionType>
+        <EntityType>User</EntityType>
+        <EntityId>U001</EntityId>
+        <Description>Sinh viên đăng nhập vào hệ thống.</Description>
+        <CreatedAt>2026-11-15T19:00:00</CreatedAt>
+        <IpAddress></IpAddress>
+    </Activity>
+    <Activity>
+        <ActivityId>ACT002</ActivityId>
+        <UserId>U002</UserId>
+        <ActionType>Create</ActionType>
+        <EntityType>Course</EntityType>
+        <EntityId>C001</EntityId>
+        <Description>Giảng viên tạo môn học Lập trình Web.</Description>
+        <CreatedAt>2026-09-01T08:00:00</CreatedAt>
+        <IpAddress></IpAddress>
+    </Activity>
+    <Activity>
+        <ActivityId>ACT003</ActivityId>
+        <UserId>U002</UserId>
+        <ActionType>Publish</ActionType>
+        <EntityType>Lesson</EntityType>
+        <EntityId>L001</EntityId>
+        <Description>Giảng viên xuất bản bài giảng Giới thiệu lập trình Web.</Description>
+        <CreatedAt>2026-09-01T08:30:00</CreatedAt>
+        <IpAddress></IpAddress>
+    </Activity>
+    <Activity>
+        <ActivityId>ACT004</ActivityId>
+        <UserId>U001</UserId>
+        <ActionType>Enroll</ActionType>
+        <EntityType>Enrollment</EntityType>
+        <EntityId>EN001</EntityId>
+        <Description>Sinh viên đăng ký môn học Lập trình Web.</Description>
+        <CreatedAt>2026-09-01T08:45:00</CreatedAt>
+        <IpAddress></IpAddress>
+    </Activity>
+    <Activity>
+        <ActivityId>ACT005</ActivityId>
+        <UserId>U003</UserId>
+        <ActionType>Login</ActionType>
+        <EntityType>User</EntityType>
+        <EntityId>U003</EntityId>
+        <Description>Admin đăng nhập vào hệ thống.</Description>
+        <CreatedAt>2026-11-16T00:00:00</CreatedAt>
+        <IpAddress></IpAddress>
+    </Activity>
+    <ActivityLog>
+        <ActivityId>A001</ActivityId>
+        <UserId>U003</UserId>
+        <ActionType>CreateUser</ActionType>
+        <Description>Admin tạo tài khoản sinh viên mới: Trần Quốc Anh (U004).</Description>
+        <CreatedAt>2026-11-24T15:51:32</CreatedAt>
+    </ActivityLog>
+    <ActivityLog>
+        <ActivityId>A002</ActivityId>
+        <UserId>U003</UserId>
+        <ActionType>CreateUser</ActionType>
+        <Description>Admin tạo tài khoản sinh viên mới: Lê Giang Uyên (U005).</Description>
+        <CreatedAt>2026-11-24T15:52:03</CreatedAt>
+    </ActivityLog>
+    <ActivityLog>
+        <ActivityId>A003</ActivityId>
+        <UserId>U003</UserId>
+        <ActionType>DeactivateUser</ActionType>
+        <Description>Admin ngừng hoạt động tài khoản Lê Giang Uyên (U005).</Description>
+        <CreatedAt>2026-11-24T15:52:11</CreatedAt>
+    </ActivityLog>
+    <ActivityLog>
+        <ActivityId>A004</ActivityId>
+        <UserId>U003</UserId>
+        <ActionType>CreateUser</ActionType>
+        <Description>Admin tạo tài khoản giảng viên mới: Nguyễn Văn C (U006).</Description>
+        <CreatedAt>2026-11-24T15:54:09</CreatedAt>
+    </ActivityLog>
+    <ActivityLog>
+        <ActivityId>A005</ActivityId>
+        <UserId>U003</UserId>
+        <ActionType>CreateCourse</ActionType>
+        <Description>Admin tạo môn học mới: Quản trị hệ thống (CS111 · C004).</Description>
+        <CreatedAt>2026-11-24T15:56:18</CreatedAt>
+    </ActivityLog>
+    <ActivityLog>
+        <ActivityId>A006</ActivityId>
+        <UserId>U003</UserId>
+        <ActionType>CreateCourse</ActionType>
+        <Description>Admin tạo môn học mới: Nhập môn CNPM (CS112 · C005).</Description>
+        <CreatedAt>2026-11-24T16:04:57</CreatedAt>
+    </ActivityLog>
+    <ActivityLog>
+        <ActivityId>A007</ActivityId>
+        <UserId>U003</UserId>
+        <ActionType>CreateCourse</ActionType>
+        <Description>Admin tạo môn học mới: Lập trình Web nâng cao (CS113 · C006).</Description>
+        <CreatedAt>2026-11-24T16:09:10</CreatedAt>
+    </ActivityLog>
+</ActivityLogs>

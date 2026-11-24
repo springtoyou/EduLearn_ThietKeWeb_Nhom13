@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Enrollments>
+    <Enrollment>
+        <EnrollmentId>EN001</EnrollmentId>
+        <StudentId>U001</StudentId>
+        <CourseId>C001</CourseId>
+        <EnrollmentDate>2026-09-01T08:00:00</EnrollmentDate>
+        <Status>Active</Status>
+        <CompletedAt></CompletedAt>
+        <LastAccessAt>2026-11-15T20:00:00</LastAccessAt>
+    </Enrollment>
+    <Enrollment>
+        <EnrollmentId>EN002</EnrollmentId>
+        <StudentId>U001</StudentId>
+        <CourseId>C002</CourseId>
+        <EnrollmentDate>2026-09-05T08:00:00</EnrollmentDate>
+        <Status>Active</Status>
+        <CompletedAt></CompletedAt>
+        <LastAccessAt>2026-11-14T19:00:00</LastAccessAt>
+    </Enrollment>
+    <Enrollment>
+        <EnrollmentId>EN003</EnrollmentId>
+        <StudentId>U001</StudentId>
+        <CourseId>C003</CourseId>
+        <EnrollmentDate>2026-09-10T08:00:00</EnrollmentDate>
+        <Status>Completed</Status>
+        <CompletedAt>2026-11-10T16:00:00</CompletedAt>
+        <LastAccessAt>2026-11-10T16:00:00</LastAccessAt>
+    </Enrollment>
+    <Enrollment>
+        <EnrollmentId>EN004</EnrollmentId>
+        <StudentId>U005</StudentId>
+        <CourseId>C004</CourseId>
+        <EnrollmentDate>2026-11-24T15:57:52</EnrollmentDate>
+        <Status>Active</Status>
+        <CompletedAt></CompletedAt>
+        <LastAccessAt></LastAccessAt>
+    </Enrollment>
+</Enrollments>

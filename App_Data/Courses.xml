@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Courses>
+    <Course>
+        <CourseId>C001</CourseId>
+        <CourseCode>CS102</CourseCode>
+        <CourseName>Lập trình Web</CourseName>
+        <CategoryId>CAT001</CategoryId>
+        <InstructorId>U002</InstructorId>
+        <ShortDescription>Học xây dựng website từ cơ bản đến nâng cao.</ShortDescription>
+        <Description>Khóa học cung cấp kiến thức HTML, CSS, JavaScript, C# và ASP.NET Web Forms. Sinh viên thực hành xây dựng website hoàn chỉnh.</Description>
+        <Thumbnail>lap-trinh-web.jpg</Thumbnail>
+        <Credits>3</Credits>
+        <TotalWeeks>8</TotalWeeks>
+        <LearningObjectives>
+            <Objective>Hiểu cấu trúc và nguyên lý hoạt động của website.</Objective>
+            <Objective>Sử dụng HTML, CSS và JavaScript để xây dựng giao diện.</Objective>
+            <Objective>Lập trình website bằng C# và ASP.NET Web Forms.</Objective>
+            <Objective>Hoàn thiện một website có các chức năng cơ bản.</Objective>
+        </LearningObjectives>
+        <Prerequisites>
+            <Prerequisite>Kiến thức lập trình cơ bản.</Prerequisite>
+        </Prerequisites>
+        <Level>Cơ bản</Level>
+        <Semester>1</Semester>
+        <AcademicYear>2026-2027</AcademicYear>
+        <EnrollmentOpen>true</EnrollmentOpen>
+        <Status>Active</Status>
+        <CreatedAt>2026-11-16T00:00:00</CreatedAt>
+        <UpdatedAt>2026-11-16T00:00:00</UpdatedAt>
+    </Course>
+    <Course>
+        <CourseId>C002</CourseId>
+        <CourseCode>CS201</CourseCode>
+        <CourseName>Cơ sở dữ liệu</CourseName>
+        <CategoryId>CAT002</CategoryId>
+        <InstructorId>U002</InstructorId>
+        <ShortDescription>Kiến thức về thiết kế và quản trị cơ sở dữ liệu.</ShortDescription>
+        <Description>Khóa học giới thiệu mô hình dữ liệu quan hệ, thiết kế cơ sở dữ liệu, SQL và các thao tác truy vấn dữ liệu.</Description>
+        <Thumbnail>co-so-du-lieu.jpg</Thumbnail>
+        <Credits>3</Credits>
+        <TotalWeeks>6</TotalWeeks>
+        <LearningObjectives>
+            <Objective>Hiểu mô hình dữ liệu quan hệ.</Objective>
+            <Objective>Thiết kế cơ sở dữ liệu.</Objective>
+            <Objective>Thực hiện truy vấn và quản lý dữ liệu bằng SQL.</Objective>
+        </LearningObjectives>
+        <Prerequisites>
+            <Prerequisite>Kiến thức tin học cơ bản.</Prerequisite>
+        </Prerequisites>
+        <Level>Cơ bản</Level>
+        <Semester>1</Semester>
+        <AcademicYear>2026-2027</AcademicYear>
+        <EnrollmentOpen>true</EnrollmentOpen>
+        <Status>Active</Status>
+        <CreatedAt>2026-11-16T00:00:00</CreatedAt>
+        <UpdatedAt>2026-11-16T00:00:00</UpdatedAt>
+    </Course>
+    <Course>
+        <CourseId>C003</CourseId>
+        <CourseCode>CS202</CourseCode>
+        <CourseName>Lập trình hướng đối tượng</CourseName>
+        <CategoryId>CAT001</CategoryId>
+        <InstructorId>U002</InstructorId>
+        <ShortDescription>Tìm hiểu lập trình hướng đối tượng với C#.</ShortDescription>
+        <Description>Khóa học cung cấp kiến thức về lớp, đối tượng, tính đóng gói, kế thừa, đa hình và cách áp dụng vào xây dựng phần mềm.</Description>
+        <Thumbnail>lap-trinh-huong-doi-tuong.jpg</Thumbnail>
+        <Credits>3</Credits>
+        <TotalWeeks>6</TotalWeeks>
+        <LearningObjectives>
+            <Objective>Hiểu các nguyên lý lập trình hướng đối tượng.</Objective>
+            <Objective>Xây dựng và sử dụng lớp, đối tượng.</Objective>
+            <Objective>Vận dụng kế thừa và đa hình trong C#.</Objective>
+        </LearningObjectives>
+        <Prerequisites>
+            <Prerequisite>Kiến thức lập trình cơ bản.</Prerequisite>
+        </Prerequisites>
+        <Level>Trung bình</Level>
+        <Semester>1</Semester>
+        <AcademicYear>2026-2027</AcademicYear>
+        <EnrollmentOpen>false</EnrollmentOpen>
+        <Status>Active</Status>
+        <CreatedAt>2026-11-16T00:00:00</CreatedAt>
+        <UpdatedAt>2026-11-16T00:00:00</UpdatedAt>
+    </Course>
+    <Course>
+        <CourseId>C004</CourseId>
+        <CourseCode>CS111</CourseCode>
+        <CourseName>Quản trị hệ thống</CourseName>
+        <CategoryId>CTA004</CategoryId>
+        <InstructorId>U006</InstructorId>
+        <ShortDescription>Môn Quản trị mạng nhập môn An toàn thông tin</ShortDescription>
+        <Description>Môn Quản trị mạng nhập môn An toàn thông tin</Description>
+        <Thumbnail>bigdata.png</Thumbnail>
+        <Credits>3</Credits>
+        <TotalWeeks>8</TotalWeeks>
+        <LearningObjectives>
+            <Objective>Hiểu kiến trúc và lý  thuyết</Objective>
+        </LearningObjectives>
+        <Prerequisites>
+            <Prerequisite>Kiến thức mạng cơ bản</Prerequisite>
+            <Prerequisite>Nhập môn an toàn thông tin</Prerequisite>
+        </Prerequisites>
+        <Level>Cơ bản</Level>
+        <Semester>2</Semester>
+        <AcademicYear>2026-2027</AcademicYear>
+        <EnrollmentOpen>true</EnrollmentOpen>
+        <Status>Active</Status>
+        <CreatedAt>2026-11-24T15:56:18</CreatedAt>
+        <UpdatedAt>2026-11-24T15:56:18</UpdatedAt>
+    </Course>
+    <Course>
+        <CourseId>C005</CourseId>
+        <CourseCode>CS112</CourseCode>
+        <CourseName>Nhập môn CNPM</CourseName>
+        <CategoryId>CTA003</CategoryId>
+        <InstructorId>U006</InstructorId>
+        <ShortDescription>Nhập môn Công nghệ phần mềm</ShortDescription>
+        <Description>vvvvvvv</Description>
+        <Thumbnail>ai.png</Thumbnail>
+        <Credits>3</Credits>
+        <TotalWeeks>6</TotalWeeks>
+        <LearningObjectives>
+            <Objective>Hiểu kiến thức cơ bản về môn học</Objective>
+        </LearningObjectives>
+        <Prerequisites>
+            <Prerequisite>Kiến thức lập trình cơ bản</Prerequisite>
+        </Prerequisites>
+        <Level>Trung bình</Level>
+        <Semester>2</Semester>
+        <AcademicYear>2026-2027</AcademicYear>
+        <EnrollmentOpen>true</EnrollmentOpen>
+        <Status>Active</Status>
+        <CreatedAt>2026-11-24T16:04:57</CreatedAt>
+        <UpdatedAt>2026-11-24T16:04:57</UpdatedAt>
+    </Course>
+    <Course>
+        <CourseId>C006</CourseId>
+        <CourseCode>CS113</CourseCode>
+        <CourseName>Lập trình Web nâng cao</CourseName>
+        <CategoryId>CTA001</CategoryId>
+        <InstructorId>U002</InstructorId>
+        <ShortDescription>Lập trình web nâng cao</ShortDescription>
+        <Description>vvvvv</Description>
+        <Thumbnail>LTW.png</Thumbnail>
+        <Credits>3</Credits>
+        <TotalWeeks>8</TotalWeeks>
+        <LearningObjectives>
+            <Objective>Thiết kế giao diện</Objective>
+            <Objective>Full-stack</Objective>
+        </LearningObjectives>
+        <Prerequisites>
+            <Prerequisite>Lập trình web cơ bản</Prerequisite>
+        </Prerequisites>
+        <Level>Nâng cao</Level>
+        <Semester>1</Semester>
+        <AcademicYear>2027-2028</AcademicYear>
+        <EnrollmentOpen>true</EnrollmentOpen>
+        <Status>Active</Status>
+        <CreatedAt>2026-11-24T16:09:10</CreatedAt>
+        <UpdatedAt>2026-11-24T16:09:10</UpdatedAt>
+    </Course>
+</Courses>

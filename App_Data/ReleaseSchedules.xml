@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReleaseSchedules>
+	<Schedule>
+		<ScheduleId>RS001</ScheduleId>
+		<CourseId>C001</CourseId>
+		<WeekId>W002</WeekId>
+		<LessonId></LessonId>
+		<ScheduleType>WholeWeek</ScheduleType>
+		<ReleaseAt>2026-11-20T08:00:00</ReleaseAt>
+		<AutoPublish>true</AutoPublish>
+		<SendNotification>true</SendNotification>
+		<Status>Pending</Status>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-11-15T08:00:00</CreatedAt>
+		<ExecutedAt></ExecutedAt>
+		<LastError></LastError>
+	</Schedule>
+
+	<Schedule>
+		<ScheduleId>RS002</ScheduleId>
+		<CourseId>C001</CourseId>
+		<WeekId></WeekId>
+		<LessonId>L004</LessonId>
+		<ScheduleType>SingleLesson</ScheduleType>
+		<ReleaseAt>2026-11-22T08:00:00</ReleaseAt>
+		<AutoPublish>true</AutoPublish>
+		<SendNotification>true</SendNotification>
+		<Status>Pending</Status>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-11-15T09:00:00</CreatedAt>
+		<ExecutedAt></ExecutedAt>
+		<LastError></LastError>
+	</Schedule>
+</ReleaseSchedules>

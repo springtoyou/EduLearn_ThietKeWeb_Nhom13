@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Lessons>
+	<!-- TUẦN 1 -->
+	<Lesson>
+		<LessonId>L001</LessonId>
+		<WeekId>W001</WeekId>
+		<LessonCode>WEB01</LessonCode>
+		<LessonTitle>Giới thiệu lập trình Web</LessonTitle>
+		<ShortDescription>Tổng quan về website và ứng dụng Web.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC001</SectionId>
+				<Title>Khái niệm website</Title>
+				<SectionType>Text</SectionType>
+				<Body>Website là tập hợp các trang web được liên kết với nhau và truy cập thông qua Internet hoặc mạng nội bộ.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+			<Section>
+				<SectionId>SEC002</SectionId>
+				<Title>Mô hình Client - Server</Title>
+				<SectionType>Text</SectionType>
+				<Body>Mô hình Client - Server mô tả cách trình duyệt gửi yêu cầu đến máy chủ và nhận dữ liệu phản hồi.</Body>
+				<DisplayOrder>2</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Video</LessonType>
+		<DurationMinutes>20</DurationMinutes>
+		<ReleaseAt>2026-09-01T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>1</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-01T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-01T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<Lesson>
+		<LessonId>L002</LessonId>
+		<WeekId>W001</WeekId>
+		<LessonCode>WEB02</LessonCode>
+		<LessonTitle>Cấu trúc ứng dụng Web</LessonTitle>
+		<ShortDescription>Tìm hiểu Front-end, Back-end và cơ sở dữ liệu.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC003</SectionId>
+				<Title>Các thành phần chính</Title>
+				<SectionType>Text</SectionType>
+				<Body>Ứng dụng Web thường gồm giao diện người dùng, máy chủ xử lý và hệ thống lưu trữ dữ liệu.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Video</LessonType>
+		<DurationMinutes>25</DurationMinutes>
+		<ReleaseAt>2026-09-02T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>2</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-02T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-02T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<Lesson>
+		<LessonId>L003</LessonId>
+		<WeekId>W001</WeekId>
+		<LessonCode>WEB03</LessonCode>
+		<LessonTitle>Kiến thức nền tảng về Internet</LessonTitle>
+		<ShortDescription>Tìm hiểu HTTP, HTTPS, tên miền và máy chủ Web.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC004</SectionId>
+				<Title>Giao thức HTTP</Title>
+				<SectionType>Text</SectionType>
+				<Body>HTTP là giao thức truyền tải dữ liệu giữa trình duyệt và máy chủ Web.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Video</LessonType>
+		<DurationMinutes>18</DurationMinutes>
+		<ReleaseAt>2026-09-03T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>3</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-03T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-03T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<!-- TUẦN 2 -->
+	<Lesson>
+		<LessonId>L004</LessonId>
+		<WeekId>W002</WeekId>
+		<LessonCode>WEB04</LessonCode>
+		<LessonTitle>Cấu trúc tài liệu HTML</LessonTitle>
+		<ShortDescription>Làm quen với các thành phần cơ bản của HTML.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC005</SectionId>
+				<Title>Cấu trúc HTML</Title>
+				<SectionType>Code</SectionType>
+				<Body>
+					&lt;!DOCTYPE html&gt;
+					&lt;html&gt;
+					&lt;head&gt;
+					&lt;title&gt;Trang web&lt;/title&gt;
+					&lt;/head&gt;
+					&lt;body&gt;
+					&lt;h1&gt;Xin chào&lt;/h1&gt;
+					&lt;/body&gt;
+					&lt;/html&gt;
+				</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>html</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Video</LessonType>
+		<DurationMinutes>30</DurationMinutes>
+		<ReleaseAt>2026-09-08T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>1</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-08T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-08T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<Lesson>
+		<LessonId>L005</LessonId>
+		<WeekId>W002</WeekId>
+		<LessonCode>WEB05</LessonCode>
+		<LessonTitle>Các thẻ HTML thường dùng</LessonTitle>
+		<ShortDescription>Sử dụng tiêu đề, đoạn văn, hình ảnh và liên kết.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC006</SectionId>
+				<Title>Các thẻ phổ biến</Title>
+				<SectionType>Text</SectionType>
+				<Body>HTML cung cấp các thẻ như h1, p, img, a, ul, li để xây dựng nội dung trang web.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Video</LessonType>
+		<DurationMinutes>28</DurationMinutes>
+		<ReleaseAt>2026-09-09T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>2</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-09T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-09T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<Lesson>
+		<LessonId>L006</LessonId>
+		<WeekId>W002</WeekId>
+		<LessonCode>WEB06</LessonCode>
+		<LessonTitle>Form và bảng trong HTML</LessonTitle>
+		<ShortDescription>Tạo biểu mẫu nhập liệu và bảng dữ liệu.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC007</SectionId>
+				<Title>Biểu mẫu HTML</Title>
+				<SectionType>Text</SectionType>
+				<Body>Form cho phép người dùng nhập và gửi dữ liệu thông qua các trường như input, select và textarea.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Exercise</LessonType>
+		<DurationMinutes>35</DurationMinutes>
+		<ReleaseAt>2026-09-10T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>3</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-10T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-10T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<!-- TUẦN 3 -->
+	<Lesson>
+		<LessonId>L007</LessonId>
+		<WeekId>W003</WeekId>
+		<LessonCode>WEB07</LessonCode>
+		<LessonTitle>CSS cơ bản</LessonTitle>
+		<ShortDescription>Cú pháp CSS và cách áp dụng CSS vào HTML.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC008</SectionId>
+				<Title>Cú pháp CSS</Title>
+				<SectionType>Code</SectionType>
+				<Body>
+					body {
+					font-family: Arial;
+					margin: 0;
+					}
+					h1 {
+					color: blue;
+					}
+				</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>css</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Video</LessonType>
+		<DurationMinutes>25</DurationMinutes>
+		<ReleaseAt>2026-09-15T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>1</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-15T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-15T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<Lesson>
+		<LessonId>L008</LessonId>
+		<WeekId>W003</WeekId>
+		<LessonCode>WEB08</LessonCode>
+		<LessonTitle>Selector và thuộc tính CSS</LessonTitle>
+		<ShortDescription>Lựa chọn phần tử và định dạng giao diện.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC009</SectionId>
+				<Title>Selector</Title>
+				<SectionType>Text</SectionType>
+				<Body>Selector giúp xác định phần tử HTML cần áp dụng quy tắc CSS.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Video</LessonType>
+		<DurationMinutes>30</DurationMinutes>
+		<ReleaseAt>2026-09-16T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>2</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-16T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-16T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<Lesson>
+		<LessonId>L009</LessonId>
+		<WeekId>W003</WeekId>
+		<LessonCode>WEB09</LessonCode>
+		<LessonTitle>Flexbox và bố cục giao diện</LessonTitle>
+		<ShortDescription>Sắp xếp các thành phần bằng Flexbox.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC010</SectionId>
+				<Title>Flexbox</Title>
+				<SectionType>Text</SectionType>
+				<Body>Flexbox hỗ trợ bố trí các phần tử theo hàng hoặc cột, giúp giao diện linh hoạt hơn.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Exercise</LessonType>
+		<DurationMinutes>40</DurationMinutes>
+		<ReleaseAt>2026-09-17T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>3</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-17T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-17T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<!-- TUẦN 4 -->
+	<Lesson>
+		<LessonId>L010</LessonId>
+		<WeekId>W004</WeekId>
+		<LessonCode>WEB10</LessonCode>
+		<LessonTitle>JavaScript và biến</LessonTitle>
+		<ShortDescription>Làm quen với biến, kiểu dữ liệu và toán tử.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC011</SectionId>
+				<Title>Khai báo biến</Title>
+				<SectionType>Code</SectionType>
+				<Body>
+					let name = "EduLearn";
+					const year = 2026;
+					console.log(name);
+				</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>javascript</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Video</LessonType>
+		<DurationMinutes>30</DurationMinutes>
+		<ReleaseAt>2026-09-22T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>1</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-22T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-22T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<Lesson>
+		<LessonId>L011</LessonId>
+		<WeekId>W004</WeekId>
+		<LessonCode>WEB11</LessonCode>
+		<LessonTitle>Hàm và sự kiện JavaScript</LessonTitle>
+		<ShortDescription>Xây dựng hàm và xử lý sự kiện người dùng.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC012</SectionId>
+				<Title>Xử lý sự kiện</Title>
+				<SectionType>Code</SectionType>
+				<Body>
+					function sayHello() {
+					alert("Xin chào EduLearn");
+					}
+				</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>javascript</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Video</LessonType>
+		<DurationMinutes>32</DurationMinutes>
+		<ReleaseAt>2026-09-23T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>2</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-23T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-23T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<Lesson>
+		<LessonId>L012</LessonId>
+		<WeekId>W004</WeekId>
+		<LessonCode>WEB12</LessonCode>
+		<LessonTitle>Thực hành JavaScript</LessonTitle>
+		<ShortDescription>Vận dụng JavaScript để tạo tương tác cho trang web.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC013</SectionId>
+				<Title>Bài thực hành</Title>
+				<SectionType>Text</SectionType>
+				<Body>Xây dựng chức năng kiểm tra dữ liệu nhập từ biểu mẫu bằng JavaScript.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Exercise</LessonType>
+		<DurationMinutes>45</DurationMinutes>
+		<ReleaseAt>2026-09-24T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>3</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-24T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-24T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<!-- TUẦN 5 -->
+	<Lesson>
+		<LessonId>L013</LessonId>
+		<WeekId>W005</WeekId>
+		<LessonCode>WEB13</LessonCode>
+		<LessonTitle>Ngôn ngữ C# cơ bản</LessonTitle>
+		<ShortDescription>Ôn tập cú pháp và cấu trúc chương trình C#.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC014</SectionId>
+				<Title>Cấu trúc chương trình</Title>
+				<SectionType>Code</SectionType>
+				<Body>
+					using System;
+					class Program {
+					static void Main() {
+					Console.WriteLine("Hello World");
+					}
+					}
+				</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>csharp</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Video</LessonType>
+		<DurationMinutes>35</DurationMinutes>
+		<ReleaseAt>2026-09-29T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>1</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-29T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-29T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<Lesson>
+		<LessonId>L014</LessonId>
+		<WeekId>W005</WeekId>
+		<LessonCode>WEB14</LessonCode>
+		<LessonTitle>Kiểu dữ liệu và xử lý dữ liệu C#</LessonTitle>
+		<ShortDescription>Tìm hiểu kiểu dữ liệu và cách xử lý dữ liệu.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC015</SectionId>
+				<Title>Kiểu dữ liệu</Title>
+				<SectionType>Text</SectionType>
+				<Body>C# hỗ trợ các kiểu dữ liệu như int, string, double, bool và decimal.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Exercise</LessonType>
+		<DurationMinutes>40</DurationMinutes>
+		<ReleaseAt>2026-09-30T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>2</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-09-30T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-09-30T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<!-- TUẦN 6 -->
+	<Lesson>
+		<LessonId>L015</LessonId>
+		<WeekId>W006</WeekId>
+		<LessonCode>WEB15</LessonCode>
+		<LessonTitle>Giới thiệu ASP.NET Web Forms</LessonTitle>
+		<ShortDescription>Tìm hiểu kiến trúc và cấu trúc dự án Web Forms.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC016</SectionId>
+				<Title>Web Forms</Title>
+				<SectionType>Text</SectionType>
+				<Body>ASP.NET Web Forms là nền tảng phát triển ứng dụng Web trên .NET Framework, hỗ trợ mô hình sự kiện và Server Controls.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Video</LessonType>
+		<DurationMinutes>35</DurationMinutes>
+		<ReleaseAt>2026-10-06T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>1</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-10-06T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-10-06T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<Lesson>
+		<LessonId>L016</LessonId>
+		<WeekId>W006</WeekId>
+		<LessonCode>WEB16</LessonCode>
+		<LessonTitle>Server Controls và sự kiện</LessonTitle>
+		<ShortDescription>Sử dụng các điều khiển máy chủ trong Web Forms.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC017</SectionId>
+				<Title>Server Controls</Title>
+				<SectionType>Text</SectionType>
+				<Body>Server Controls cho phép xử lý tương tác và dữ liệu trên máy chủ thông qua mã C#.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Exercise</LessonType>
+		<DurationMinutes>45</DurationMinutes>
+		<ReleaseAt>2026-10-07T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>2</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-10-07T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-10-07T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<!-- TUẦN 7 -->
+	<Lesson>
+		<LessonId>L017</LessonId>
+		<WeekId>W007</WeekId>
+		<LessonCode>WEB17</LessonCode>
+		<LessonTitle>Đọc và ghi dữ liệu XML</LessonTitle>
+		<ShortDescription>Thực hiện thao tác đọc, ghi và cập nhật XML bằng C#.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC018</SectionId>
+				<Title>Xử lý XML</Title>
+				<SectionType>Text</SectionType>
+				<Body>XML có thể được đọc và ghi bằng các lớp như XmlDocument và LINQ to XML.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Video</LessonType>
+		<DurationMinutes>30</DurationMinutes>
+		<ReleaseAt>2026-10-13T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>1</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-10-13T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-10-13T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<Lesson>
+		<LessonId>L018</LessonId>
+		<WeekId>W007</WeekId>
+		<LessonCode>WEB18</LessonCode>
+		<LessonTitle>Quản lý trạng thái ứng dụng</LessonTitle>
+		<ShortDescription>Tìm hiểu Session và các cơ chế quản lý trạng thái.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC019</SectionId>
+				<Title>Session</Title>
+				<SectionType>Text</SectionType>
+				<Body>Session lưu trữ dữ liệu riêng cho từng người dùng trong quá trình tương tác với ứng dụng.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Exercise</LessonType>
+		<DurationMinutes>35</DurationMinutes>
+		<ReleaseAt>2026-10-14T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>2</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-10-14T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-10-14T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<!-- TUẦN 8 -->
+	<Lesson>
+		<LessonId>L019</LessonId>
+		<WeekId>W008</WeekId>
+		<LessonCode>WEB19</LessonCode>
+		<LessonTitle>Kiểm thử và hoàn thiện website</LessonTitle>
+		<ShortDescription>Kiểm tra chức năng và sửa lỗi ứng dụng Web.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC020</SectionId>
+				<Title>Kiểm thử ứng dụng</Title>
+				<SectionType>Text</SectionType>
+				<Body>Kiểm thử giúp phát hiện lỗi, đánh giá chức năng và cải thiện chất lượng ứng dụng.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Video</LessonType>
+		<DurationMinutes>30</DurationMinutes>
+		<ReleaseAt>2026-10-20T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>1</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-10-20T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-10-20T08:00:00</UpdatedAt>
+	</Lesson>
+
+	<Lesson>
+		<LessonId>L020</LessonId>
+		<WeekId>W008</WeekId>
+		<LessonCode>WEB20</LessonCode>
+		<LessonTitle>Bài tập dự án cuối khóa</LessonTitle>
+		<ShortDescription>Vận dụng kiến thức để xây dựng website hoàn chỉnh.</ShortDescription>
+		<ContentSections>
+			<Section>
+				<SectionId>SEC021</SectionId>
+				<Title>Yêu cầu dự án</Title>
+				<SectionType>Text</SectionType>
+				<Body>Xây dựng website có giao diện, chức năng đăng nhập, quản lý dữ liệu và phân quyền người dùng.</Body>
+				<DisplayOrder>1</DisplayOrder>
+				<Language>vi</Language>
+			</Section>
+		</ContentSections>
+		<LessonType>Exercise</LessonType>
+		<DurationMinutes>90</DurationMinutes>
+		<ReleaseAt>2026-10-21T08:00:00</ReleaseAt>
+		<Status>Published</Status>
+		<IsRequired>true</IsRequired>
+		<DisplayOrder>2</DisplayOrder>
+		<CreatedBy>U002</CreatedBy>
+		<CreatedAt>2026-10-21T08:00:00</CreatedAt>
+		<UpdatedBy>U002</UpdatedBy>
+		<UpdatedAt>2026-10-21T08:00:00</UpdatedAt>
+	</Lesson>
+</Lessons>

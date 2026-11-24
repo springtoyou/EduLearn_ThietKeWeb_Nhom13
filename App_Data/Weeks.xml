@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Weeks>
+	<!-- C001: Lập trình Web -->
+	<Week>
+		<WeekId>W001</WeekId>
+		<CourseId>C001</CourseId>
+		<WeekNumber>1</WeekNumber>
+		<WeekTitle>Tổng quan về lập trình Web</WeekTitle>
+		<Description>Giới thiệu website, Internet và mô hình hoạt động của ứng dụng Web.</Description>
+		<LearningObjectives>
+			<Objective>Hiểu khái niệm website và ứng dụng Web.</Objective>
+			<Objective>Phân biệt Front-end và Back-end.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Available</Status>
+		<DisplayOrder>1</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W002</WeekId>
+		<CourseId>C001</CourseId>
+		<WeekNumber>2</WeekNumber>
+		<WeekTitle>HTML cơ bản</WeekTitle>
+		<Description>Tìm hiểu cấu trúc tài liệu HTML và các thẻ thường dùng.</Description>
+		<LearningObjectives>
+			<Objective>Hiểu cấu trúc trang HTML.</Objective>
+			<Objective>Sử dụng các thẻ HTML cơ bản.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Locked</Status>
+		<DisplayOrder>2</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W003</WeekId>
+		<CourseId>C001</CourseId>
+		<WeekNumber>3</WeekNumber>
+		<WeekTitle>CSS và thiết kế giao diện</WeekTitle>
+		<Description>Sử dụng CSS để định dạng và bố trí giao diện website.</Description>
+		<LearningObjectives>
+			<Objective>Hiểu cú pháp CSS.</Objective>
+			<Objective>Sử dụng Flexbox và Grid.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Locked</Status>
+		<DisplayOrder>3</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W004</WeekId>
+		<CourseId>C001</CourseId>
+		<WeekNumber>4</WeekNumber>
+		<WeekTitle>JavaScript cơ bản</WeekTitle>
+		<Description>Làm quen với biến, hàm, sự kiện và xử lý tương tác.</Description>
+		<LearningObjectives>
+			<Objective>Sử dụng biến và hàm JavaScript.</Objective>
+			<Objective>Xử lý sự kiện trên trang Web.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Locked</Status>
+		<DisplayOrder>4</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W005</WeekId>
+		<CourseId>C001</CourseId>
+		<WeekNumber>5</WeekNumber>
+		<WeekTitle>C# và lập trình phía máy chủ</WeekTitle>
+		<Description>Tìm hiểu ngôn ngữ C# và xử lý dữ liệu phía máy chủ.</Description>
+		<LearningObjectives>
+			<Objective>Ôn tập cú pháp C#.</Objective>
+			<Objective>Hiểu cách xử lý yêu cầu phía máy chủ.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Locked</Status>
+		<DisplayOrder>5</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W006</WeekId>
+		<CourseId>C001</CourseId>
+		<WeekNumber>6</WeekNumber>
+		<WeekTitle>ASP.NET Web Forms</WeekTitle>
+		<Description>Giới thiệu kiến trúc và các thành phần của Web Forms.</Description>
+		<LearningObjectives>
+			<Objective>Tạo ứng dụng ASP.NET Web Forms.</Objective>
+			<Objective>Sử dụng Server Controls và sự kiện.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Locked</Status>
+		<DisplayOrder>6</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W007</WeekId>
+		<CourseId>C001</CourseId>
+		<WeekNumber>7</WeekNumber>
+		<WeekTitle>Xử lý dữ liệu và quản lý trạng thái</WeekTitle>
+		<Description>Tìm hiểu cách đọc, ghi dữ liệu XML và quản lý trạng thái ứng dụng.</Description>
+		<LearningObjectives>
+			<Objective>Đọc và ghi dữ liệu XML bằng C#.</Objective>
+			<Objective>Hiểu Session và Application.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Locked</Status>
+		<DisplayOrder>7</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W008</WeekId>
+		<CourseId>C001</CourseId>
+		<WeekNumber>8</WeekNumber>
+		<WeekTitle>Hoàn thiện dự án Web</WeekTitle>
+		<Description>Vận dụng kiến thức đã học để xây dựng website hoàn chỉnh.</Description>
+		<LearningObjectives>
+			<Objective>Tích hợp các thành phần của website.</Objective>
+			<Objective>Kiểm thử và hoàn thiện dự án.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Locked</Status>
+		<DisplayOrder>8</DisplayOrder>
+	</Week>
+
+	<!-- C002: Cơ sở dữ liệu -->
+	<Week>
+		<WeekId>W009</WeekId>
+		<CourseId>C002</CourseId>
+		<WeekNumber>1</WeekNumber>
+		<WeekTitle>Giới thiệu cơ sở dữ liệu</WeekTitle>
+		<Description>Khái niệm cơ sở dữ liệu và hệ quản trị cơ sở dữ liệu.</Description>
+		<LearningObjectives>
+			<Objective>Hiểu khái niệm cơ sở dữ liệu.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Available</Status>
+		<DisplayOrder>1</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W010</WeekId>
+		<CourseId>C002</CourseId>
+		<WeekNumber>2</WeekNumber>
+		<WeekTitle>Mô hình dữ liệu quan hệ</WeekTitle>
+		<Description>Bảng, bản ghi, thuộc tính và các loại khóa.</Description>
+		<LearningObjectives>
+			<Objective>Hiểu mô hình dữ liệu quan hệ.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Locked</Status>
+		<DisplayOrder>2</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W011</WeekId>
+		<CourseId>C002</CourseId>
+		<WeekNumber>3</WeekNumber>
+		<WeekTitle>Thiết kế cơ sở dữ liệu</WeekTitle>
+		<Description>Phân tích yêu cầu và thiết kế bảng dữ liệu.</Description>
+		<LearningObjectives>
+			<Objective>Thiết kế cấu trúc bảng.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Locked</Status>
+		<DisplayOrder>3</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W012</WeekId>
+		<CourseId>C002</CourseId>
+		<WeekNumber>4</WeekNumber>
+		<WeekTitle>Ngôn ngữ truy vấn SQL</WeekTitle>
+		<Description>Các câu lệnh truy vấn và thao tác dữ liệu.</Description>
+		<LearningObjectives>
+			<Objective>Thực hiện truy vấn SQL.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Locked</Status>
+		<DisplayOrder>4</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W013</WeekId>
+		<CourseId>C002</CourseId>
+		<WeekNumber>5</WeekNumber>
+		<WeekTitle>Truy vấn nâng cao</WeekTitle>
+		<Description>Join, Subquery và các hàm tổng hợp.</Description>
+		<LearningObjectives>
+			<Objective>Viết truy vấn nhiều bảng.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Locked</Status>
+		<DisplayOrder>5</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W014</WeekId>
+		<CourseId>C002</CourseId>
+		<WeekNumber>6</WeekNumber>
+		<WeekTitle>Ôn tập và thực hành</WeekTitle>
+		<Description>Thực hành thiết kế và truy vấn cơ sở dữ liệu.</Description>
+		<LearningObjectives>
+			<Objective>Vận dụng kiến thức đã học.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Locked</Status>
+		<DisplayOrder>6</DisplayOrder>
+	</Week>
+
+	<!-- C003: Lập trình hướng đối tượng -->
+	<Week>
+		<WeekId>W015</WeekId>
+		<CourseId>C003</CourseId>
+		<WeekNumber>1</WeekNumber>
+		<WeekTitle>Tổng quan lập trình hướng đối tượng</WeekTitle>
+		<Description>Giới thiệu tư duy và nguyên lý lập trình hướng đối tượng.</Description>
+		<LearningObjectives>
+			<Objective>Hiểu lập trình hướng đối tượng.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Available</Status>
+		<DisplayOrder>1</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W016</WeekId>
+		<CourseId>C003</CourseId>
+		<WeekNumber>2</WeekNumber>
+		<WeekTitle>Lớp và đối tượng</WeekTitle>
+		<Description>Xây dựng lớp và khởi tạo đối tượng trong C#.</Description>
+		<LearningObjectives>
+			<Objective>Định nghĩa lớp và đối tượng.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Completed</Status>
+		<DisplayOrder>2</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W017</WeekId>
+		<CourseId>C003</CourseId>
+		<WeekNumber>3</WeekNumber>
+		<WeekTitle>Tính đóng gói</WeekTitle>
+		<Description>Phạm vi truy cập và bảo vệ dữ liệu.</Description>
+		<LearningObjectives>
+			<Objective>Áp dụng tính đóng gói.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Completed</Status>
+		<DisplayOrder>3</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W018</WeekId>
+		<CourseId>C003</CourseId>
+		<WeekNumber>4</WeekNumber>
+		<WeekTitle>Tính kế thừa</WeekTitle>
+		<Description>Xây dựng lớp dẫn xuất và lớp cơ sở.</Description>
+		<LearningObjectives>
+			<Objective>Vận dụng kế thừa trong C#.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Completed</Status>
+		<DisplayOrder>4</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W019</WeekId>
+		<CourseId>C003</CourseId>
+		<WeekNumber>5</WeekNumber>
+		<WeekTitle>Tính đa hình</WeekTitle>
+		<Description>Phương thức ảo và ghi đè phương thức.</Description>
+		<LearningObjectives>
+			<Objective>Hiểu và áp dụng tính đa hình.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Completed</Status>
+		<DisplayOrder>5</DisplayOrder>
+	</Week>
+
+	<Week>
+		<WeekId>W020</WeekId>
+		<CourseId>C003</CourseId>
+		<WeekNumber>6</WeekNumber>
+		<WeekTitle>Ôn tập và bài tập tổng hợp</WeekTitle>
+		<Description>Vận dụng các nguyên lý hướng đối tượng để xây dựng chương trình.</Description>
+		<LearningObjectives>
+			<Objective>Hoàn thiện bài tập tổng hợp.</Objective>
+		</LearningObjectives>
+		<UnlockAt></UnlockAt>
+		<Status>Completed</Status>
+		<DisplayOrder>6</DisplayOrder>
+	</Week>
+</Weeks>

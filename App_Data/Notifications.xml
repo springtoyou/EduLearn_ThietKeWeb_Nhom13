@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Notifications>
+	<Notification>
+		<NotificationId>N001</NotificationId>
+		<RecipientId>U001</RecipientId>
+		<SenderId>U002</SenderId>
+		<NotificationType>LessonPublished</NotificationType>
+		<Title>Bài giảng mới đã được cập nhật</Title>
+		<Content>Giảng viên đã cập nhật nội dung mới cho môn Lập trình Web.</Content>
+		<RelatedCourseId>C001</RelatedCourseId>
+		<RelatedLessonId>L001</RelatedLessonId>
+		<CreatedAt>2026-11-10T08:00:00</CreatedAt>
+		<IsRead>false</IsRead>
+		<ReadAt></ReadAt>
+	</Notification>
+
+	<Notification>
+		<NotificationId>N002</NotificationId>
+		<RecipientId>U001</RecipientId>
+		<SenderId>U002</SenderId>
+		<NotificationType>CourseUpdated</NotificationType>
+		<Title>Cập nhật thông tin môn học</Title>
+		<Content>Môn học Cơ sở dữ liệu đã được cập nhật thông tin.</Content>
+		<RelatedCourseId>C002</RelatedCourseId>
+		<RelatedLessonId></RelatedLessonId>
+		<CreatedAt>2026-11-12T09:00:00</CreatedAt>
+		<IsRead>false</IsRead>
+		<ReadAt></ReadAt>
+	</Notification>
+
+	<Notification>
+		<NotificationId>N003</NotificationId>
+		<RecipientId>U002</RecipientId>
+		<SenderId>U003</SenderId>
+		<NotificationType>General</NotificationType>
+		<Title>Chào mừng đến với EduLearn</Title>
+		<Content>Chúc bạn có một trải nghiệm giảng dạy hiệu quả trên hệ thống EduLearn.</Content>
+		<RelatedCourseId></RelatedCourseId>
+		<RelatedLessonId></RelatedLessonId>
+		<CreatedAt>2026-11-01T08:00:00</CreatedAt>
+		<IsRead>true</IsRead>
+		<ReadAt>2026-11-01T08:30:00</ReadAt>
+	</Notification>
+
+	<Notification>
+		<NotificationId>N004</NotificationId>
+		<RecipientId>U003</RecipientId>
+		<SenderId></SenderId>
+		<NotificationType>System</NotificationType>
+		<Title>Hệ thống hoạt động bình thường</Title>
+		<Content>Hệ thống EduLearn đã sẵn sàng phục vụ người dùng.</Content>
+		<RelatedCourseId></RelatedCourseId>
+		<RelatedLessonId></RelatedLessonId>
+		<CreatedAt>2026-11-16T00:00:00</CreatedAt>
+		<IsRead>false</IsRead>
+		<ReadAt></ReadAt>
+	</Notification>
+</Notifications>

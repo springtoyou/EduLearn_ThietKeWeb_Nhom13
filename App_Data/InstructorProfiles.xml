@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstructorProfiles>
+	<InstructorProfile>
+		<InstructorProfileId>IP001</InstructorProfileId>
+		<UserId>U002</UserId>
+		<Department>Công nghệ thông tin</Department>
+		<Specialization>Công nghệ phần mềm</Specialization>
+		<AcademicTitle>Giảng viên</AcademicTitle>
+		<ExperienceYears>5</ExperienceYears>
+		<Biography>Giảng viên phụ trách các môn học thuộc lĩnh vực công nghệ thông tin và phát triển phần mềm.</Biography>
+		<Office>Phòng Công nghệ thông tin</Office>
+		<UpdatedAt>2026-11-16T00:00:00</UpdatedAt>
+	</InstructorProfile>
+</InstructorProfiles>

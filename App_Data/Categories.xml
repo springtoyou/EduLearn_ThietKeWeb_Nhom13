@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Categories>
+	<Category>
+		<CategoryId>CAT001</CategoryId>
+		<CategoryName>Lập trình</CategoryName>
+		<Description>Các môn học về lập trình và phát triển phần mềm.</Description>
+		<Image>programming.png</Image>
+		<DisplayOrder>1</DisplayOrder>
+		<Status>Active</Status>
+	</Category>
+
+	<Category>
+		<CategoryId>CAT002</CategoryId>
+		<CategoryName>Cơ sở dữ liệu</CategoryName>
+		<Description>Các môn học về quản trị và khai thác dữ liệu.</Description>
+		<Image>database.png</Image>
+		<DisplayOrder>2</DisplayOrder>
+		<Status>Active</Status>
+	</Category>
+
+	<Category>
+		<CategoryId>CAT003</CategoryId>
+		<CategoryName>Công nghệ phần mềm</CategoryName>
+		<Description>Các môn học về phân tích, thiết kế và xây dựng phần mềm.</Description>
+		<Image>software.png</Image>
+		<DisplayOrder>3</DisplayOrder>
+		<Status>Active</Status>
+	</Category>
+
+	<Category>
+		<CategoryId>CAT004</CategoryId>
+		<CategoryName>An toàn thông tin</CategoryName>
+		<Description>Các môn học về an ninh và bảo mật dữ liệu.</Description>
+		<Image>security.png</Image>
+		<DisplayOrder>4</DisplayOrder>
+		<Status>Active</Status>
+	</Category>
+</Categories>

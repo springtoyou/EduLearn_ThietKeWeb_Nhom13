@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstructorData>
+  <Profiles>
+    <Profile>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <FullName>Trần Quốc An</FullName>
+      <Email>an.instructor@edulearn.vn</Email>
+      <Phone>0912 345 678</Phone>
+      <Department>Khoa Công nghệ thông tin</Department>
+      <Degree>Thạc sĩ Khoa học Máy tính</Degree>
+      <Bio>Giảng viên phụ trách các học phần Phát triển Web, Cơ sở dữ liệu và Lập trình hướng đối tượng.</Bio>
+    </Profile>
+  </Profiles>
+  <Courses>
+    <Course>
+      <Id>LTW</Id>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <Name>Lập trình Web</Name>
+      <Category>Công nghệ thông tin</Category>
+      <Description>Phát triển ứng dụng Web toàn diện với ASP.NET và HTML/CSS.</Description>
+      <Thumbnail>LTW</Thumbnail>
+      <Status>Đang diễn ra</Status>
+      <StudentCount>48</StudentCount>
+      <Weeks>8</Weeks>
+      <Progress>83</Progress>
+    </Course>
+    <Course>
+      <Id>CSDL</Id>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <Name>Cơ sở dữ liệu</Name>
+      <Category>Hệ thống thông tin</Category>
+      <Description>Mô hình hóa quan hệ E-R, đại số quan hệ và chuẩn hóa dữ liệu.</Description>
+      <Thumbnail>CSDL</Thumbnail>
+      <Status>Đang diễn ra</Status>
+      <StudentCount>45</StudentCount>
+      <Weeks>10</Weeks>
+      <Progress>85</Progress>
+    </Course>
+    <Course>
+      <Id>JAVA</Id>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <Name>Lập trình hướng đối tượng (OOP)</Name>
+      <Category>Khoa học máy tính</Category>
+      <Description>Nguyên lý thiết kế phần mềm hướng đối tượng với Java và C#.</Description>
+      <Thumbnail>javanangcao</Thumbnail>
+      <Status>Đang diễn ra</Status>
+      <StudentCount>35</StudentCount>
+      <Weeks>9</Weeks>
+      <Progress>80</Progress>
+    </Course>
+    <Course>
+      <Id>NET</Id>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <Name>Mạng máy tính &amp; IoT căn bản</Name>
+      <Category>Công nghệ thông tin</Category>
+      <Description>Kiến thức nền tảng về giao thức mạng TCP/IP và hệ thống IoT.</Description>
+      <Thumbnail>mangmaytinh</Thumbnail>
+      <Status>Sắp diễn ra</Status>
+      <StudentCount>0</StudentCount>
+      <Weeks>8</Weeks>
+      <Progress>0</Progress>
+    </Course>
+  </Courses>
+  <Lectures>
+    <Lecture>
+      <Id>LEC001</Id>
+      <CourseId>LTW</CourseId>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <Week>1</Week>
+      <Title>Tổng quan kiến trúc Web &amp; ASP.NET Web Forms</Title>
+      <Type>Video</Type>
+      <Duration>45 phút</Duration>
+      <VideoUrl>https://www.youtube.com/watch?v=demo1</VideoUrl>
+      <Content>Giới thiệu mô hình Client-Server, vòng đời trang ASP.NET và cấu trúc dự án.</Content>
+      <Status>Đã xuất bản</Status>
+      <UpdatedAt>2026-11-09T13:16:05</UpdatedAt>
+    </Lecture>
+    <Lecture>
+      <Id>LEC002</Id>
+      <CourseId>LTW</CourseId>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <Week>4</Week>
+      <Title>Tuần 4: Thiết kế Responsive với CSS Grid &amp; Flexbox</Title>
+      <Type>Video</Type>
+      <Duration>55 phút</Duration>
+      <VideoUrl>https://www.youtube.com/watch?v=demo2</VideoUrl>
+      <Content>Xây dựng bố cục đa thiết bị với Flexbox, CSS Grid và Media Queries.</Content>
+      <Status>Bản nháp</Status>
+      <UpdatedAt>2026-11-19T13:01:05</UpdatedAt>
+    </Lecture>
+    <Lecture>
+      <Id>LEC003</Id>
+      <CourseId>CSDL</CourseId>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <Week>2</Week>
+      <Title>Tuần 2: Chuẩn hóa dữ liệu 3NF và BCNF</Title>
+      <Type>Tài liệu</Type>
+      <Duration>40 phút</Duration>
+      <VideoUrl></VideoUrl>
+      <Content>Phụ thuộc hàm, khóa ứng viên và các bước tách lược đồ đạt chuẩn 3NF/BCNF.</Content>
+      <Status>Đã xuất bản</Status>
+      <UpdatedAt>2026-11-19T11:16:05</UpdatedAt>
+    </Lecture>
+    <Lecture>
+      <Id>LEC004</Id>
+      <CourseId>JAVA</CourseId>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <Week>3</Week>
+      <Title>Tuần 3: Kế thừa và Đa hình trong Java</Title>
+      <Type>Bài tập</Type>
+      <Duration>60 phút</Duration>
+      <VideoUrl></VideoUrl>
+      <Content>Thực hành ghi đè phương thức, lớp trừu tượng và giao diện Interface.</Content>
+      <Status>Đã xuất bản</Status>
+      <UpdatedAt>2026-11-18T13:16:05</UpdatedAt>
+    </Lecture>
+  </Lectures>
+  <Notifications>
+    <Notification>
+      <Id>NOTI01</Id>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <CourseId>LTW</CourseId>
+      <Title>Lịch nộp bài thực hành Tuần 4 - Lập trình Web</Title>
+      <Message>Các nhóm hoàn thành giao diện Responsive và nộp mã nguồn lên hệ thống trước 23:59 Chủ nhật.</Message>
+      <CreatedAt>2026-11-19T10:16:05</CreatedAt>
+      <IsRead>true</IsRead>
+    </Notification>
+    <Notification>
+      <Id>NOTI02</Id>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <CourseId>SYSTEM</CourseId>
+      <Title>Phân công giảng dạy Học kỳ 1 năm học 2026 - 2027</Title>
+      <Message>Phòng Đào tạo đã cập nhật danh sách lớp học phần chính thức của giảng viên.</Message>
+      <CreatedAt>2026-11-16T13:16:05</CreatedAt>
+      <IsRead>true</IsRead>
+    </Notification>
+  </Notifications>
+  <Activities>
+    <Activity>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <Type>created</Type>
+      <Title>Bài giảng mới được tạo: “Tuần 4: Thiết kế Responsive với CSS Grid &amp; Flexbox”</Title>
+      <Subject>Môn: Lập trình Web</Subject>
+      <Time>2026-11-19T13:01:05</Time>
+      <Status>Bản nháp</Status>
+    </Activity>
+    <Activity>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <Type>updated</Type>
+      <Title>Bài giảng vừa được cập nhật: “Tuần 2: Chuẩn hóa dữ liệu 3NF và BCNF”</Title>
+      <Subject>Môn: Cơ sở dữ liệu</Subject>
+      <Time>2026-11-19T11:16:05</Time>
+      <Status>Đã lưu</Status>
+    </Activity>
+    <Activity>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <Type>published</Type>
+      <Title>Bài giảng vừa được xuất bản: “Tuần 3: Kế thừa và Đa hình trong Java”</Title>
+      <Subject>Môn: Lập trình hướng đối tượng (OOP)</Subject>
+      <Time>2026-11-18T13:16:05</Time>
+      <Status>Đã công khai</Status>
+    </Activity>
+    <Activity>
+      <InstructorUsername>an.instructor</InstructorUsername>
+      <Type>assigned</Type>
+      <Title>Môn học vừa được phân công: Phân công giảng dạy học kỳ 1 năm học 2026 - 2027</Title>
+      <Subject>Khoa Công nghệ thông tin</Subject>
+      <Time>2026-11-16T13:16:05</Time>
+      <Status>Chính thức</Status>
+    </Activity>
+  </Activities>
+</InstructorData>

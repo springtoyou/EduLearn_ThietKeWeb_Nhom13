@@ -1,0 +1,187 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true"
+    CodeBehind="Site.Master.cs"
+    Inherits="EduLearn.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="vi">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><%: Page.Title %> | EduLearn</title>
+
+    <link rel="stylesheet"
+        href="<%= ResolveUrl("~/Content/CSS/site.css") %>" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+
+        <div class="edulearn-layout">
+
+            <!-- SIDEBAR -->
+            <aside class="sidebar">
+
+                <div class="sidebar-top">
+
+                    <a href="<%= ResolveUrl("~/Student/Dashboard.aspx") %>"
+                        class="brand">
+                        <span class="brand-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M3 7.5 12 3l9 4.5-9 4.5-9-4.5Z" />
+                                <path d="M6 9v6c3.5 3 8.5 3 12 0V9" />
+                                <path d="M21 8v7" />
+                            </svg>
+                        </span>
+                        <span>EduLearn</span>
+                    </a>
+
+                    <nav class="sidebar-nav">
+
+                        <asp:HyperLink ID="lnkDashboard"
+                            runat="server"
+                            NavigateUrl="~/Student/Dashboard.aspx"
+                            CssClass="nav-link active">
+                            <span class="nav-icon">▦</span>
+                            <span>Tổng quan</span>
+                        </asp:HyperLink>
+
+                        <asp:HyperLink ID="lnkMyCourses"
+                            runat="server"
+                            NavigateUrl="~/Student/MyCourses.aspx"
+                            CssClass="nav-link">
+                            <span class="nav-icon">▤</span>
+                            <span>Môn học của tôi</span>
+                        </asp:HyperLink>
+
+                        <asp:HyperLink ID="lnkExplore"
+                            runat="server"
+                            NavigateUrl="~/Student/ExploreCourses.aspx"
+                            CssClass="nav-link">
+                            <span class="nav-icon">⌕</span>
+                            <span>Khám phá môn học</span>
+                        </asp:HyperLink>
+
+                        <asp:HyperLink ID="lnkNotifications"
+                            runat="server"
+                            NavigateUrl="~/Student/Dashboard.aspx#notifications"
+                            CssClass="nav-link">
+                            <span class="nav-icon">♧</span>
+                            <span>Thông báo</span>
+                        </asp:HyperLink>
+
+                        <asp:HyperLink ID="lnkProfile"
+                            runat="server"
+                            NavigateUrl="~/Student/Profile.aspx"
+                            CssClass="nav-link">
+                            <span class="nav-icon">◎</span>
+                            <span>Hồ sơ cá nhân</span>
+                        </asp:HyperLink>
+
+                    </nav>
+                </div>
+
+                <!-- THÔNG TIN NGƯỜI DÙNG -->
+                <div class="sidebar-user">
+
+                    <div class="avatar avatar-small">
+                        <asp:Image ID="imgSidebarAvatar"
+                            runat="server"
+                            Visible="false"
+                            AlternateText="Ảnh đại diện" />
+
+                        <asp:Label ID="lblSidebarInitials"
+                            runat="server"
+                            CssClass="avatar-initials" />
+                    </div>
+
+                    <div class="sidebar-user-info">
+                        <asp:Label ID="lblSidebarName"
+                            runat="server"
+                            CssClass="user-name" />
+
+                        <asp:Label ID="lblSidebarRole"
+                            runat="server"
+                            CssClass="user-role" />
+                    </div>
+
+                </div>
+
+            </aside>
+
+            <!-- MAIN AREA -->
+            <div class="main-area">
+
+                <!-- HEADER -->
+                <header class="top-header">
+
+                    <h1 class="header-title">
+                        <asp:Literal ID="litPageHeading"
+                            runat="server"
+                            Text="Tổng quan" />
+                    </h1>
+
+                    <div class="header-actions">
+
+                        <div class="search-box">
+                            <span class="search-icon">⌕</span>
+
+                            <asp:TextBox ID="txtGlobalSearch"
+                                runat="server"
+                                CssClass="search-input"
+                                placeholder="Tìm kiếm khóa học, bài giảng..." />
+                        </div>
+
+                        <a class="notification-button"
+                            href="<%= ResolveUrl("~/Student/Dashboard.aspx#notifications") %>"
+                            title="Thông báo">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9" />
+                                <path d="M10 21h4" />
+                            </svg>
+                            <span class="notification-dot"></span>
+                        </a>
+
+                        <div class="header-profile">
+
+                            <div class="avatar avatar-header">
+                                <asp:Image ID="imgHeaderAvatar"
+                                    runat="server"
+                                    Visible="false"
+                                    AlternateText="Ảnh đại diện" />
+
+                                <asp:Label ID="lblHeaderInitials"
+                                    runat="server"
+                                    CssClass="avatar-initials" />
+                            </div>
+
+                            <asp:Label ID="lblHeaderName"
+                                runat="server"
+                                CssClass="header-user-name" />
+
+                            <span class="profile-arrow">⌄</span>
+
+                        </div>
+
+                    </div>
+
+                </header>
+
+                <!-- PAGE CONTENT -->
+                <main class="page-content">
+
+                    <asp:ContentPlaceHolder
+                        ID="MainContent"
+                        runat="server" />
+
+                </main>
+
+            </div>
+
+        </div>
+
+    </form>
+</body>
+</html>
