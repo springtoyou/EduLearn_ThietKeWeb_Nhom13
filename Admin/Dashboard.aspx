@@ -11,8 +11,8 @@
     <title>Quản trị tổng quan | EduLearn</title>
     <link rel="stylesheet"
         href="<%= ResolveUrl("~/Content/CSS/admin-dashboard.css") %>" />
-    <link rel="stylesheet"
-        href="<%= ResolveUrl("~/Content/CSS/admin-popups.css") %>?v=2" />
+    <!--<link rel="stylesheet"
+        href="?v=2" /> -->
 </head>
 <body class="admin-dashboard-body">
     <form id="form1" runat="server">
@@ -199,7 +199,7 @@
                                                         <td>
                                                             <asp:LinkButton ID="btnToggleUserStatus" runat="server"
                                                                 CommandName="ToggleUserStatus"
-                                                                CommandArgument='<%# Eval("UserId") %>'
+                                                                CommandArgument='<%#: Eval("UserId") %>'
                                                                 CausesValidation="false"
                                                                 ToolTip="Nhấn để đổi trạng thái hoạt động"
                                                                 CssClass='<%# "admin-status-pill admin-status-toggle " + Eval("StatusCss") %>'>
@@ -266,7 +266,7 @@
                                                         <td>
                                                             <asp:LinkButton ID="btnToggleCourseStatus" runat="server"
                                                                 CommandName="ToggleCourseStatus"
-                                                                CommandArgument='<%# Eval("CourseId") %>'
+                                                                CommandArgument='<%#: Eval("CourseId") %>'
                                                                 CausesValidation="false"
                                                                 ToolTip="Nhấn để đổi trạng thái môn học"
                                                                 CssClass='<%# "admin-status-pill admin-status-toggle " + Eval("StatusCss") %>'>
@@ -318,9 +318,6 @@
                 </main>
             </div>
         </div>
-
-        <div id="adminToast" class="admin-toast" role="status" aria-live="polite"
-            hidden="hidden"></div>
 
         <div id="rolePopupModal" class="edu-admin-modal" hidden="hidden" role="dialog" aria-modal="true">
             <div class="edu-admin-modal-card">
@@ -470,23 +467,23 @@
                     <div class="edu-admin-grid">
                         <div class="edu-admin-field">
                             <label for="<%= txtNewCourseCode.ClientID %>">Mã môn học *</label>
-                            <asp:TextBox ID="txtNewCourseCode" runat="server" CssClass="edu-admin-input" placeholder="VD: CS301" />
+                            <asp:TextBox ID="txtNewCourseCode" runat="server" CssClass="edu-admin-input" placeholder="VD: CS102" />
                         </div>
                         <div class="edu-admin-field">
                             <label for="<%= txtNewCourseName.ClientID %>">Tên môn học *</label>
-                            <asp:TextBox ID="txtNewCourseName" runat="server" CssClass="edu-admin-input" placeholder="VD: Lập trình mạng" />
+                            <asp:TextBox ID="txtNewCourseName" runat="server" CssClass="edu-admin-input" placeholder="VD: Lập trình Web" />
                         </div>
                         <div class="edu-admin-field">
                             <label for="<%= ddlNewCourseInstructor.ClientID %>">Giảng viên phụ trách *</label>
                             <asp:DropDownList ID="ddlNewCourseInstructor" runat="server" CssClass="edu-admin-input" />
                         </div>
                         <div class="edu-admin-field">
-                            <label for="<%= ddlNewCourseCategoryId.ClientID %>">Mã danh mục (CategoryId)</label>
+                            <label for="<%= ddlNewCourseCategoryId.ClientID %>">Danh mục (CategoryId)</label>
                             <asp:DropDownList ID="ddlNewCourseCategoryId" runat="server" CssClass="edu-admin-input">
-                                <asp:ListItem Value="CTA001">Lập trình</asp:ListItem>
-                                <asp:ListItem Value="CTA002">Cơ sở dữ liệu</asp:ListItem>
-                                <asp:ListItem Value="CTA003">Công nghệ phần mềm</asp:ListItem>
-                                <asp:ListItem Value="CTA004">An toàn thông tin</asp:ListItem>
+                                <asp:ListItem Value="CAT001">CAT001 · Lập trình</asp:ListItem>
+                                <asp:ListItem Value="CAT002">CAT002 · Cơ sở dữ liệu</asp:ListItem>
+                                <asp:ListItem Value="CAT003">CAT003 · Công nghệ phần mềm</asp:ListItem>
+                                <asp:ListItem Value="CAT004">CAT004 · An toàn thông tin</asp:ListItem>
                             </asp:DropDownList>
                         </div>
                         <div class="edu-admin-field">
@@ -583,8 +580,7 @@
     var activeSection = {
         overview: "overview",
         "user-management": "user-management",
-        "course-management": "course-management",
-        "activity-log": "activity-log"
+        "course-management": "course-management"
     };
 
     function updateActiveNavigation() {
@@ -679,17 +675,25 @@
             .replace(/"/g, "&quot;");
     }
 
-    window.closeAdminModal = function (id) {
+    function setModalVisible(id, visible) {
         var modal = document.getElementById(id);
-        if (modal) { modal.hidden = true; }
+        if (!modal) { return; }
+        if (visible && modal.parentNode !== document.body) {
+            document.body.appendChild(modal);
+        }
+        modal.hidden = !visible;
+    }
+
+    window.closeAdminModal = function (id) {
+        setModalVisible(id, false);
     };
 
     window.openAddUserModal = function () {
-        document.getElementById("addUserModal").hidden = false;
+        setModalVisible("addUserModal", true);
     };
 
     window.openAddCourseModal = function () {
-        document.getElementById("addCourseModal").hidden = false;
+        setModalVisible("addCourseModal", true);
     };
 
     window.openRoleAccountsPopup = function (role) {
@@ -703,7 +707,7 @@
         var input = document.getElementById("rolePopupSearch");
         input.value = "";
         window.renderRolePopup();
-        document.getElementById("rolePopupModal").hidden = false;
+        setModalVisible("rolePopupModal", true);
         input.focus();
     };
 
@@ -737,7 +741,7 @@
         var input = document.getElementById("coursesPopupSearch");
         input.value = "";
         window.renderCoursesPopup();
-        document.getElementById("coursesPopupModal").hidden = false;
+        setModalVisible("coursesPopupModal", true);
         input.focus();
     };
 
@@ -777,17 +781,17 @@
         activeStudents = c.Students || [];
         document.getElementById("enrollmentsPopupTitle").textContent =
             "Người đăng ký · " + c.CourseName;
-        document.getElementById("coursesPopupModal").hidden = true;
+        setModalVisible("coursesPopupModal", false);
         var input = document.getElementById("enrollmentsPopupSearch");
         input.value = "";
         window.renderEnrollmentsPopup();
-        document.getElementById("enrollmentsPopupModal").hidden = false;
+        setModalVisible("enrollmentsPopupModal", true);
         input.focus();
     };
 
     window.backToCoursesPopup = function () {
-        document.getElementById("enrollmentsPopupModal").hidden = true;
-        document.getElementById("coursesPopupModal").hidden = false;
+        setModalVisible("enrollmentsPopupModal", false);
+        setModalVisible("coursesPopupModal", true);
     };
 
     window.renderEnrollmentsPopup = function () {
@@ -813,99 +817,6 @@
                 "</tr>";
         }).join("");
     };
-
-    var activity = payload.Activity || { AdminId: "", AlertKeys: [], Toast: "" };
-    var alertKeys = activity.AlertKeys || [];
-    var seenStorageKey = "eduAdminActivitySeen_" + (activity.AdminId || "admin");
-    var latestAlertKey = alertKeys.reduce(function (max, key) {
-        return key > max ? key : max;
-    }, 0);
-    var activityBadge = document.getElementById("activityBadge");
-    var activityNav = document.getElementById("navActivityLog");
-    var activityPanel = document.getElementById("activity-log");
-    var activityItems = Array.prototype.slice.call(
-        document.querySelectorAll(".admin-activity-item"));
-    var seenKey = null;
-
-    function readSeenKey() {
-        try {
-            var raw = window.localStorage.getItem(seenStorageKey);
-            if (raw === null) { return null; }
-            var value = Number(raw);
-            return isNaN(value) ? null : value;
-        } catch (e) {
-            return null;
-        }
-    }
-
-    function writeSeenKey(value) {
-        try {
-            window.localStorage.setItem(seenStorageKey, String(value));
-        } catch (e) { /* trình duyệt chặn lưu trữ: bỏ qua */ }
-    }
-
-    function renderActivityBadge() {
-        if (!activityBadge) { return; }
-        var unread = alertKeys.filter(function (key) {
-            return key > seenKey;
-        }).length;
-        activityBadge.textContent = unread > 9 ? "9+" : String(unread);
-        activityBadge.hidden = unread === 0;
-        if (activityNav) {
-            activityNav.setAttribute("aria-label", unread > 0
-                ? "Nhật ký hoạt động, " + unread + " thông báo mới"
-                : "Nhật ký hoạt động");
-        }
-    }
-
-    function markActivitiesSeen() {
-        if (latestAlertKey > seenKey) {
-            seenKey = latestAlertKey;
-            writeSeenKey(seenKey);
-        }
-        renderActivityBadge();
-    }
-
-    seenKey = readSeenKey();
-    if (seenKey === null) {
-        seenKey = latestAlertKey;
-        writeSeenKey(seenKey);
-    }
-
-    var seenAtLoad = seenKey;
-    activityItems.forEach(function (item) {
-        var isNew = item.getAttribute("data-alert") === "true" &&
-            Number(item.getAttribute("data-sortkey")) > seenAtLoad;
-        item.classList.toggle("is-new", isNew);
-        var tag = item.querySelector(".admin-activity-new");
-        if (tag) { tag.hidden = !isNew; }
-    });
-
-    renderActivityBadge();
-    if (activityNav) { activityNav.addEventListener("click", markActivitiesSeen); }
-    if (activityPanel) { activityPanel.addEventListener("click", markActivitiesSeen); }
-
-    var toastTimer = null;
-    window.showAdminToast = function (message) {
-        var toast = document.getElementById("adminToast");
-        if (!toast || !message) { return; }
-        toast.textContent = "";
-        var title = document.createElement("strong");
-        title.textContent = "Nhật ký hoạt động";
-        var body = document.createElement("span");
-        body.textContent = message;
-        toast.appendChild(title);
-        toast.appendChild(body);
-        toast.hidden = false;
-        window.clearTimeout(toastTimer);
-        toastTimer = window.setTimeout(function () { toast.hidden = true; }, 6000);
-    };
-
-    var toastEl = document.getElementById("adminToast");
-    if (toastEl) {
-        toastEl.addEventListener("click", function () { toastEl.hidden = true; });
-    }
-    if (activity.Toast) { window.showAdminToast(activity.Toast); }
 }());
 </script>
 </body>
